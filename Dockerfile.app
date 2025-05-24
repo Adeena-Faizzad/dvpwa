@@ -1,8 +1,7 @@
 # ──────────────────────────────────────────────────────────────────────────────
 # 1) Base image – pin the exact Python version you need
 # ──────────────────────────────────────────────────────────────────────────────
-FROM python:3.8-alpine   # ⇠ use the explicit tag; “python:alpine3.8” is deprecated
-
+FROM python:3.8-alpine   
 # ──────────────────────────────────────────────────────────────────────────────
 # 2) Runtime utilities (wget + wait-for) – unchanged from your original file
 # ──────────────────────────────────────────────────────────────────────────────
